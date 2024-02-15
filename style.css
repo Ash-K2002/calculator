@@ -1,0 +1,47 @@
+
+.container{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel{
+flex-grow: 1;
+border: 1px solid blue;
+}
+
+.buttons{
+flex-grow: 4;
+border: 1px solid red;
+display: flex;
+}
+
+.numbers{
+border: 1px solid green;
+flex-grow: 4;
+display: flex;
+flex-direction: column;
+}
+
+.operators{
+border: 1px solid cyan;
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+}
+
+.num-row
+{
+    flex-grow: 1;
+    display: flex;
+}
+.num-button{
+    flex-grow: 1;
+    height: auto;
+}
+
+.op-button{
+    flex-grow: 1;
+}
