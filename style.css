@@ -1,6 +1,12 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .container{
-    width: 600px;
+    width: 400px;
     height: 500px;
     border: 2px solid black;
     display: flex;
@@ -8,25 +14,26 @@
 }
 
 .panel{
+height: 40px;
 flex-grow: 1;
-border: 1px solid blue;
+border: 1px solid black;
 }
 
 .buttons{
 flex-grow: 4;
-border: 1px solid red;
+
 display: flex;
 }
 
 .numbers{
-border: 1px solid green;
+
 flex-grow: 4;
 display: flex;
 flex-direction: column;
 }
 
 .operators{
-border: 1px solid cyan;
+
 flex-grow: 1;
 display: flex;
 flex-direction: column;
@@ -44,4 +51,9 @@ flex-direction: column;
 
 .op-button{
     flex-grow: 1;
+}
+
+button{
+    background-color: rgb(89, 89, 93);
+    color: white;
 }
